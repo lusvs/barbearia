@@ -46,8 +46,7 @@ header nav a{
     border-radius: 13px;
 
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: var(--font-family);
     color: black;
     background-color: var(--header-bg-a);   
 }
@@ -87,7 +86,7 @@ header nav a:hover{
 
     margin: 50px;
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-family);
 }
 
 .info-ctt h1{
@@ -107,7 +106,7 @@ header nav a:hover{
 
     margin: 50px;
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-family);
  }
 
  .form-ctt div input{      

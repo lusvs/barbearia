@@ -54,7 +54,7 @@ header nav a{
     border-radius: 13px;
 
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-family);
 
     color: black;
     background-color: var(--header-bg-a);   
@@ -71,6 +71,7 @@ header nav a:hover{
 .container{
     width: 100%;
     /* scroll-margin-top: 100px; /* altura do seu header fixo */
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,12 +102,13 @@ header nav a:hover{
     gap: 60px;
 
     padding-top: 40px;
+
     background-color: var(--main-bg);
 }
 
 .container nav h1{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-family);
 }
 
 .container nav a{
@@ -128,6 +130,8 @@ header nav a:hover{
     width: 100%;
     display: flex;
     /* scroll-margin-top: 100px; altura do seu header fixo */
+
+    font-family: var(--font-family);
     background-color: var(--main-bg);
 }
 
@@ -149,7 +153,6 @@ header nav a:hover{
 
 .sobre div h1{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .transparente{
@@ -161,12 +164,13 @@ header nav a:hover{
 }
 
 .transparente p{
+    margin: 10px 50px;
+
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-family);
 
     color: rgb(255, 252, 252);
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
-    margin: 10px 50px;
 }
 
 .barbeiros{
@@ -179,6 +183,7 @@ header nav a:hover{
 
     padding: 50px 20%;
 
+    font-family: var(--font-family);
     background-color: var(--main-bg);
 }
 
@@ -188,7 +193,6 @@ header nav a:hover{
     padding: 10px;
 
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .barbeiros article{
@@ -204,7 +208,6 @@ header nav a:hover{
 
 .barbeiros h2{
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .barbeiros a{
@@ -237,6 +240,7 @@ header nav a:hover{
 
     padding: 0px 100px;
 
+    font-family: var(--font-family);
     color: white;
     background-color: var(--header-bg);
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
@@ -246,7 +250,6 @@ header nav a:hover{
     text-align: center;
     margin: 30px;
 
-    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 }
 

@@ -17,3 +17,8 @@
     --footer-bg: rgb(104, 61, 4);
     --input-bg: rgb(247, 247, 247);
 }
+
+/* font-family */
+:root{
+    --font-family: 'Times New Roman', Times, serif;
+}
