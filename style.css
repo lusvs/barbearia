@@ -160,3 +160,37 @@ header nav a:hover{
     color: white;
 }
 
+.info{
+    width: 100%;
+    height: 350px;
+
+    color: white;
+    background-color: rgb(141, 86, 14);
+}
+
+.info h1{
+    text-align: center;
+    padding: 30px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.info div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.info article ul{
+    text-align: center;
+    list-style: none;
+}
+
