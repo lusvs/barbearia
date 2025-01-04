@@ -1,6 +1,12 @@
 header{
     width: 100%;
-    height: 100px;
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0px 10%;
 
     background-color: rgb(214, 143, 50);
 }
@@ -13,10 +19,10 @@ header img{
 }
 
 header div{
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
-
-    margin: 0px 00px 0px 130px;
 }
 
 header nav{    
@@ -26,17 +32,16 @@ header nav{
     align-items: center;
     justify-content: center;
     gap: 30px;
-
-    margin: 0px 0px 0px 300px;
 }
 
 header nav a{
+    width: 100px;
     height: 30px;
 
     display: flex;
     align-items: center;
+    justify-content: center;
 
-    padding: 10px;
     border-radius: 13px;
 
     font-size: 18px;
@@ -45,7 +50,6 @@ header nav a{
 }
 
 header nav a:hover{
-    padding: 15px;
     margin: 10px;
     transition: 0.3s;
 
