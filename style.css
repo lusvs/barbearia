@@ -238,6 +238,7 @@ header nav a:hover{
 
     color: white;
     background-color: rgb(141, 86, 14);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 .info h1{
@@ -249,8 +250,9 @@ header nav a:hover{
 }
 
 .info div{
+    width: 100%;
     display: flex;
-    gap: 100px;
+    justify-content: space-around;
 }
 
 .info article{
@@ -258,7 +260,6 @@ header nav a:hover{
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    
 }
 
 .info article ul{
