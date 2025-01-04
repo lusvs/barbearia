@@ -118,14 +118,15 @@ header nav a:hover{
 .sobre{
     width: 100%;
     display: flex;
-    flex-direction: row;
 }
 
 .sobre article{
     width: 100%;
-    margin: 50px;
-
     display: flex;
+
+    padding: 50px;
+
+    background-color: rgb(255, 255, 255);
 }
 
 .sobre div{
@@ -140,5 +141,22 @@ header nav a:hover{
 .sobre div h1{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.transparente{
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    align-items: end;
+
+    background-color: rgb(128, 128, 128);
+}
+
+.transparente p{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: white;
 }
 
