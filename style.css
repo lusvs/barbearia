@@ -19,7 +19,7 @@ header div{
     margin: 0px 00px 0px 130px;
 }
 
-nav{    
+header nav{    
     width: 100%;
 
     display: flex;
@@ -30,7 +30,7 @@ nav{
     margin: 0px 0px 0px 300px;
 }
 
-nav a{
+header nav a{
     height: 30px;
 
     display: flex;
@@ -44,11 +44,67 @@ nav a{
     background-color: rgba(240, 248, 255, 0.418);   
 }
 
-nav a:hover{
+header nav a:hover{
     padding: 15px;
     margin: 10px;
     transition: 0.3s;
 
     color: white;
     background-color: rgba(5, 5, 5, 0.329);
+}
+
+.container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   padding: 0px 50px 50px ;
+
+   background-color: rgb(228, 228, 228);
+}
+
+.container div{
+    display: flex;
+}
+
+.barbearia{
+    height: 700px; 
+}
+
+.barbeiro{
+    height: 400px;
+}
+
+.container nav{
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    padding-top: 40px;
+}
+
+.container nav h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container nav a{
+
+    padding: 20px 40px;
+
+    font-size: 20px;
+    border-radius: 20px;
+
+    color: white;
+    background-color: rgb(214, 143, 50);
+}
+
+.container nav a:hover{
+    padding: 25px 50px;
+    transition: 0.3s;
 }
