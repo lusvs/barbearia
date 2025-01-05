@@ -157,7 +157,7 @@ header nav a:hover{
 }
 
 .transparente p{
-    margin: 10px 50px;
+    margin: 10px 40px;
 
     font-size: 50px;
     font-family: var(--font-family);
@@ -321,6 +321,10 @@ footer a:hover{
     .sobre article{
         display: flex;
         text-align: center;   
+    }
+    
+    .transparente p{
+        margin: 10px 20px;
     }
     
 }
