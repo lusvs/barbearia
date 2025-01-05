@@ -321,18 +321,14 @@ footer a:hover {
     }
 
     .container div {
-        display: flex;
         flex-direction: column;
     }
 
     .sobre {
-        height: 100%;
-        display: flex;
         flex-direction: column;
     }
 
     .sobre article {
-        display: flex;
         text-align: center;
     }
 
