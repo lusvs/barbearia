@@ -74,9 +74,8 @@ header nav a:hover{
     
     display: flex;
     justify-content: center;
-    align-items: center;
-
-   padding: 0px 50px 50px ;
+    
+    padding-bottom: 50px;
 
    background-color: rgb(189, 164, 129);
 }
@@ -302,4 +301,22 @@ footer a:hover{
     color: rgb(61, 146, 202);
 }
 
+/* ========================================================= */
+
+@media (max-width: 500px) {
+    
+    .barbearia{
+        height: 350px; 
+    }
+    
+    .barbeiro{
+        height: 175px;
+    }
+
+    .container div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 
