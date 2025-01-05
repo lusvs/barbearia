@@ -1,12 +1,16 @@
-body{
+body {
     background-image: url('src/assets/barbearia-fundo.jpg');
-  background-size: cover; /* Faz a imagem cobrir toda a tela */
-  background-attachment: fixed; /* Define que a imagem ficará fixa enquanto o usuário rola a página */
-  background-position: center; /* Posiciona a imagem no centro */
-  background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover;
+    /* Faz a imagem cobrir toda a tela */
+    background-attachment: fixed;
+    /* Define que a imagem ficará fixa enquanto o usuário rola a página */
+    background-position: center;
+    /* Posiciona a imagem no centro */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
 }
 
-header{
+header {
     width: 100%;
     height: 130px;
     /* position: fixed; */
@@ -14,27 +18,27 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     padding: 0px 10%;
 
     background-color: var(--header-bg);
 }
 
-header img{
+header img {
     height: 100px;
 
     border-radius: 50px;
     background-color: var(--header-bg-a);
 }
 
-header div{
+header div {
     width: 100%;
 
     display: flex;
     justify-content: space-between;
 }
 
-header nav{    
+header nav {
     width: 100%;
 
     display: flex;
@@ -43,7 +47,7 @@ header nav{
     gap: 30px;
 }
 
-header nav a{
+header nav a {
     width: 100px;
     height: 30px;
 
@@ -57,10 +61,10 @@ header nav a{
     font-family: var(--font-family);
 
     color: black;
-    background-color: var(--header-bg-a);   
+    background-color: var(--header-bg-a);
 }
 
-header nav a:hover{
+header nav a:hover {
     margin: 10px;
     transition: 0.3s;
 
@@ -68,31 +72,31 @@ header nav a:hover{
     background-color: var(--header-bg-a-hover);
 }
 
-.container{
+.container {
     width: 100%;
     /* scroll-margin-top: 100px; /* altura do seu header fixo */
-    
+
     display: flex;
     justify-content: center;
-    
+
     padding-bottom: 50px;
 
-   background-color: rgb(189, 164, 129);
+    background-color: rgb(189, 164, 129);
 }
 
-.container div{
+.container div {
     display: flex;
 }
 
-.barbearia{
-    height: 700px; 
+.barbearia {
+    height: 700px;
 }
 
-.barbeiro{
+.barbeiro {
     height: 400px;
 }
 
-.container nav{
+.container nav {
     height: 300px;
 
     display: flex;
@@ -105,12 +109,12 @@ header nav a:hover{
     background-color: var(--main-bg);
 }
 
-.container nav h1{
+.container nav h1 {
     font-size: 40px;
     font-family: var(--font-family);
 }
 
-.container nav a{
+.container nav a {
     padding: 20px 40px;
 
     font-size: 20px;
@@ -120,12 +124,12 @@ header nav a:hover{
     background-color: var(--buttons-bg);
 }
 
-.container nav a:hover{
+.container nav a:hover {
     padding: 25px 50px;
     transition: 0.3s;
 }
 
-.sobre{
+.sobre {
     width: 100%;
     display: flex;
 
@@ -135,7 +139,7 @@ header nav a:hover{
     background-color: var(--main-bg);
 }
 
-.sobre article{
+.sobre article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,11 +148,11 @@ header nav a:hover{
     padding: 40px;
 }
 
-.sobre article h1{
+.sobre article h1 {
     font-size: 40px;
 }
 
-.transparente{
+.transparente {
     width: 100%;
     height: 350px;
 
@@ -156,7 +160,7 @@ header nav a:hover{
     align-items: end;
 }
 
-.transparente p{
+.transparente p {
     margin: 10px 40px;
 
     font-size: 50px;
@@ -166,13 +170,13 @@ header nav a:hover{
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
-.barbeiros{
+.barbeiros {
     width: 100%;
     /* scroll-margin-top: 100px; altura do seu header fixo */
 
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 
     padding: 50px 20%;
 
@@ -180,30 +184,39 @@ header nav a:hover{
     background-color: var(--main-bg);
 }
 
-.barbeiros h1{
+.barbeiros h1 {
     text-align: center;
-
-    padding: 10px;
 
     font-size: 40px;
 }
 
-.barbeiros article{
-    display: flex;    
+.b {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.barbeiros article {
+    display: flex;
     gap: 40px;
 }
 
-.barbeiros div{
+.diego {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.barbeiros div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.barbeiros h2{
+.barbeiros h2 {
     font-size: 30px;
 }
 
-.barbeiros a{
+.barbeiros nav {
     width: 200px;
     padding: 20px 40px;
 
@@ -214,16 +227,16 @@ header nav a:hover{
     background-color: var(--buttons-bg);
 }
 
-.barbeiros a:hover{
+.barbeiros a:hover {
     padding: 25px 50px;
     transition: 0.3s;
 }
 
-.barbeiros img{
+.barbeiros img {
     height: 400px;
 }
 
-.info{
+.info {
     width: 100%;
     /* scroll-margin-top: 100px; altura do seu header fixo */
 
@@ -239,39 +252,39 @@ header nav a:hover{
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
-.info h1{
+.info h1 {
     text-align: center;
     margin: 30px;
 
     font-size: 40px;
 }
 
-.info div{
+.info div {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.info article{
+.info article {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.info article ul{
+.info article ul {
     text-align: center;
     list-style: none;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 250px;
 
     margin: 40px 0px;
 }
 
-footer{
+footer {
     width: 100%;
     height: 50px;
 
@@ -285,47 +298,65 @@ footer{
     color: #d6d4d4;
 }
 
-footer a{
+footer a {
     font-family: cursive;
     color: rgb(226, 223, 223);
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgb(61, 146, 202);
 }
 
 /* ========================================================= */
 
 @media (max-width: 500px) {
-    
-    .barbearia{
-        height: 350px; 
+
+    .barbearia {
+        height: 350px;
     }
-    
-    .barbeiro{
+
+    .barbeiro {
         height: 175px;
     }
 
-    .container div{
+    .container div {
         display: flex;
         flex-direction: column;
     }
-   
-    .sobre{
+
+    .sobre {
         height: 100%;
         display: flex;
         flex-direction: column;
     }
-    
-    .sobre article{
+
+    .sobre article {
         display: flex;
-        text-align: center;   
+        text-align: center;
     }
-    
-    .transparente p{
+
+    .transparente p {
         margin: 10px 20px;
     }
-    
-}
 
+    .barbeiros article {
+        height: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .b2 {
+        gap: 25px;
+    }
+
+    .barbeiros div {
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .barbeiros img {
+        height: 330px;
+    }
+}
