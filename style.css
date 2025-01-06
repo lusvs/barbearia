@@ -228,7 +228,7 @@ header nav a:hover {
     
     font-size: 20px;
     border-radius: 20px;
-    
+
     color: white;
     background-color: var(--buttons-bg);
 }
@@ -364,5 +364,21 @@ footer a:hover {
 
     .b-info nav{
         margin-top: 20px;
+    }
+
+    .info{
+        gap: 20px;
+    }
+
+    .info div {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    iframe {
+        height: 100%;
     }
 }
