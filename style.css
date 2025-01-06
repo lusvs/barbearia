@@ -96,6 +96,8 @@ header nav a:hover {
     height: 400px;
 }
 
+/* corrigir espaço!!!!!!!!! */
+
 .container nav {
     height: 300px;
 
@@ -193,10 +195,11 @@ header nav a:hover {
 .b {
     width: 100%;
     display: flex;
+    flex-direction: column;
     gap: 50px;
 }
 
-.barbeiros article {
+.b article {
     display: flex;
     gap: 40px;
 }
@@ -206,34 +209,33 @@ header nav a:hover {
     flex-direction: row-reverse;
 }
 
-.barbeiros div {
+.b-img img {
+    height: 400px;
+}
+
+.b-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     justify-content: space-around;
 }
 
-.barbeiros h2 {
+.b-info h2 {
     font-size: 30px;
 }
 
-.barbeiros nav {
-    width: 200px;
-    padding: 20px 40px;
-
+.b nav a{
+    padding: 20px 30px;
+    
     font-size: 20px;
     border-radius: 20px;
-
+    
     color: white;
     background-color: var(--buttons-bg);
 }
 
-.barbeiros a:hover {
-    padding: 25px 50px;
+.b nav a:hover{
+    padding: 25px 45px;
     transition: 0.3s;
-}
-
-.barbeiros img {
-    height: 400px;
 }
 
 .info {
@@ -336,23 +338,31 @@ footer a:hover {
         margin: 10px 20px;
     }
 
+    .b{
+        gap: 100px;
+    }
+
     .barbeiros article {
         height: 100%;
         flex-direction: column;
         gap: 10px;
+        
     }
 
-    .b2 {
-        gap: 25px;
+    .b-img img{
+       width: 262px;
+       height: 100%;
     }
 
-    .barbeiros div {
+    .b-info{ 
+        height: 100%;
+        display: flex;
         align-items: center;
-
+        gap: 20px;
         text-align: center;
     }
 
-    .barbeiros img {
-        height: 330px;
+    .b-info nav{
+        margin-top: 20px;
     }
 }
