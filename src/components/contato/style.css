@@ -166,6 +166,20 @@ footer a:hover{
     color: rgb(61, 146, 202);
 }
 
+@media (max-width: 500px){
+    .contato{
+        flex-direction: column;
+    }
+
+    .info-ctt{
+        margin: 25px;    
+    }
+
+    .form-ctt{
+        margin: 25px;
+    }
+}
+
 
  
 
