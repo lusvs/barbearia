@@ -1,31 +1,23 @@
 header img {
-    height: 100px;
+    height: 85px;
 
     border-radius: 50px;
     background-color: var(--header-bg-a);
 }
 
-/* .logo{
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-} */
-
 header a{
     text-decoration: none;
-    /* border: 3px solid black; */
     color: white;
 }
 
 header nav {
-    height: 20vh;
+    height: 18vh;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0px 10vw ;
     background-color: var(--header-bg);
-    /* border: 3px solid black; */
 }
 
 
@@ -35,7 +27,6 @@ header nav {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    /* border: 3px solid black; */
 }
 
 .nav-list li {
@@ -61,6 +52,17 @@ header nav {
     background: #fff;
     margin: 8px;
     transition: 0.3s;
+}
+
+.container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 0px 110px 80px 110px;
+
+    background-color: rgb(189, 164, 129);
 }
 
 .barbearia{
@@ -186,12 +188,29 @@ footer a:hover{
         overflow-x: hidden;
     }
 
+    header nav {
+        height: 10vh;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 10vw ;
+        background-color: var(--header-bg);
+    }
+
+    header img{
+        height: 60px;
+
+        border-radius: 50px;
+        background-color: var(--header-bg-a);
+    }
+
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 10vh;
         right: 0;
         width: 50vw;
-        height: 92vh;
+        height: 90vh;
         background-color: var(--header-bg);
         flex-direction: column;
         align-items: center;
@@ -201,7 +220,6 @@ footer a:hover{
     }
 
     .nav-list li{
-        margin-left: 0;
         opacity: 0;
     }
 
@@ -226,13 +244,13 @@ footer a:hover{
 }
 
 .mobile-menu.active .line-1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 12px);
 }
 .mobile-menu.active .line-2 {
     opacity: 0;
 }
 .mobile-menu.active .line-3 {
-    transform: rotate(45deg) translate(-5px, 7px);
+    transform: rotate(45deg) translate(-5px, 0px);
 }
 
 
