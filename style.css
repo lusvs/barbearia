@@ -421,6 +421,10 @@ footer a:hover {
         background-color: var(--header-bg-a);
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .nav-list{
         position: absolute;
         top: 12vh;
